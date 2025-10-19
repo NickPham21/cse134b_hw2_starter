@@ -5,7 +5,7 @@
     <title>Starbucks Sample Page</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        form {border: 1px solid #ccc; padding: 10px; margin-top: 20px;}
+        form {border: 1px solid #ccc;}
     </style>
 </head>
 <body>
@@ -30,7 +30,7 @@
 
         <hgroup>
             <h2>Abstract</h2>
-            <p>Recent advances in quantum caffeination theory have revealed unexpected correlations between entangled coffee molecules and workplace productivity metrics. This study demonstrates that QEC particles exhibit non-local effects on human consciousness, resulting in a 47.3% improvement in task completion rates. Using a double-blind, placebo-controlled methodology with n = 2,847 participants, we observed statistically significant (p < 0.001) enhancements in cognitive function following consumption of quantum-entangled espresso. These findings suggest potential applications in corporate efficiency optimization and may explain the universe's apparent preference for morning meetings.</p>
+            <p>Recent advances in quantum caffeination theory have revealed unexpected correlations between entangled coffee molecules and workplace productivity metrics. This study demonstrates that QEC particles exhibit non-local effects on human consciousness, resulting in a <strong>47.3% improvement</strong> in task completion rates. Using a double-blind, placebo-controlled methodology with n = 2,847 participants, we observed statistically significant (p < 0.001) enhancements in cognitive function following consumption of quantum-entangled espresso. These findings suggest potential applications in corporate efficiency optimization and may explain the universe's apparent preference for morning meetings.</p>
         </hgroup>
         <hgroup>
            <h3>Keywords</h3>
@@ -45,9 +45,9 @@
         
         <hgroup>
             <h2>1. Introduction</h2>
-            <p>The relationship between caffeine consumption and productivity has been documented since the discovery of coffee in 850 CE [1]. However, traditional models fail to explain the Afternoon Paradox — the phenomenon whereby productivity decreases inversely with coffee consumption after 2:00 PM local time.</p>
+            <p>The relationship between caffeine consumption and productivity has been documented since the discovery of coffee in 850 CE <cite>[1]</cite>. However, traditional models fail to explain the <dfn>Afternoon Paradox</dfn> — the phenomenon whereby productivity decreases inversely with coffee consumption after 2:00 PM local time.</p>
             <blockquote>&quot;Coffee is a beverage that puts one to sleep when not drank.&quot; <br><cite>--Alphonse Allais, 1893</cite></blockquote>
-            <p>Recent work by Johnson et al. [2] proposed that coffee molecules might exist in quantum superposition states. Building on this foundation, we hypothesized that entangled coffee particles could maintain coherence across spatial and temporal boundaries, potentially solving the Afternoon Paradox.</p>
+            <p>Recent work by Johnson et al. <cite>[2]</cite> proposed that coffee molecules might exist in quantum superposition states. Building on this foundation, we hypothesized that entangled coffee particles could maintain coherence across spatial and temporal boundaries, potentially solving the Afternoon Paradox.</p>
         </hgroup>
                 
         <h2>2. Methods</h2>
@@ -106,31 +106,34 @@
             </colgroup>
             <thead>
                 <tr>
-                    <th>Group</th>
-                    <th>Task Completion Rate (%)</th>
-                    <th>Cognitive Function Score</th>
-                    <th>Alertness Level (1-10)</th>
-                    <th></th>
+                    <th>Metric</th>
+                    <th>Control</th>
+                    <th>Quantum</th>
+                    <th>Placebo</th>
+                    <th><i>p-value</i></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Control Group (CG)</td>
-                    <td>68.4 ± 5.2</td>
-                    <td>72.1 ± 6.3</td>
-                    <td>6.5 ± 1.2</td>
+                    <td>Task Completion Rate(%)</td>
+                    <td>62.3 ± 5.1</td>
+                    <td>91.8 ± 3.2</td>
+                    <td>64.1 ± 4.8</td>
+                    <td>&lt;0.001</td>
                 </tr>
                 <tr>
-                    <td>Quantum Group (QG)</td>
-                    <td>95.7 ± 3.1*</td>
-                    <td>89.4 ± 4.5*</td>
-                    <td>9.2 ± 0.8*</td>
+                    <td>Error Rate(%)</td>
+                    <td>8.7 ± 1.2</td>
+                    <td>2.1 ± 0.4</td>
+                    <td>8.3 ± 1.1</td>
+                    <td>&lt;0.001</td>
                 </tr>
                 <tr>
-                    <td>Placebo Group (PG)</td>
-                    <td>70.2 ± 4.8</td>
-                    <td>74.3 ± 5.7</td>
-                    <td>6.8 ± 1.1</td>
+                    <td>Efficiency (units)</td>
+                    <td>3.2 ± 0.8</td>
+                    <td>8.9 ± 0.6</td>
+                    <td>3.4 ± 0.7</td>
+                    <td>&lt;0.001</td>
                 </tr>
             </tbody>
         </table>
@@ -140,15 +143,12 @@
             <p>The quantum entanglement effect showed remarkable persistence throughout the workday. Peak productivity occurred at 10:47 AM, with sustained effects until 4:23 PM.</p>
         </hgroup>
         <figure>
-            <svg>
-            <rect x="50" y="10" width="30" height="180" style="fill:rgb(0,0,255);stroke-width:1;stroke:rgb(0,0,0)" />
-            <rect x="100" y="50" width="30" height="140" style="fill:rgb(0,255,0);stroke-width:1;stroke:rgb(0,0,0)" />
-            <rect x="150" y="80" width="30" height="110" style="fill:rgb(255,0,0);stroke-width:1;stroke:rgb(0,0,0)" />
-            <text x="50" y="205" font-family="Verdana" font-size="12">9 AM</text>
+            <svg width="500" height="250">
+            <polyline points="50,200 80,150 110,120 140,100 170,90 200,85 230,80 260,78 290,76 320,75 350,74 380,73 410,72 440,71 470,70" style="fill:none;stroke:blue;stroke-width:2" />
+            <text x="50" y="205" font-family="Verdana" font-size="12">8 AM</text>
             <text x="100" y="205" font-family="Verdana" font-size="12">12 PM</text>
-            <text x="150" y="205" font-family="Verdana" font-size="12">3 PM</text>
-            <text x="10" y="100" font-family="Verdana" font-size="12" transform="rotate(-90 10,100)">Productivity Level</text>
-            <text x="70" y="15" font-family="Verdana" font-size="14">Productivity Over Time with Quantum Coffee</text>
+            <text x="150" y="205" font-family="Verdana" font-size="12">5 PM</text>
+            <text x="70" y="15" font-family="Verdana" font-size="14">Productivity Over Time</text>
             </svg>
             <figcaption><b>Figure 2:</b> Temporal distribution of productivity enhancement. The shaded region indicates the quantum coherence window. NOTE: The svg does not have to match the sample provided above.</figcaption>
         </figure>
@@ -176,9 +176,9 @@
        
         <h2>References</h2>
         <ol>
-            <li>Smith, J. "A Brief History of Caffeine Addiction." Journal of Procrastination Studies, vol. 42, 2020, pp. 123-145.</li>
-            <li>Johnson, K., et al. "Quantum Superposition in Beverage Sciences." Physical Review Coffee, vol. 13, 2024, pp. 456-478.</li>
-            <li>Chen, L. "Temporal Mechanics of Office Productivity." Annals of Corporate Physics, vol. 7, 2023, pp. 89-101.</li>
+            <li>Smith, J. "A Brief History of Caffeine Addiction." <cite>Journal of Procrastination Studies</cite>, vol. 42, 2020, pp. 123-145.</li>
+            <li>Johnson, K., et al. "Quantum Superposition in Beverage Sciences." <cite>Physical Review Coffee</cite>, vol. 13, 2024, pp. 456-478.</li>
+            <li>Chen, L. "Temporal Mechanics of Office Productivity." <cite>Annals of Corporate Physics</cite>, vol. 7, 2023, pp. 89-101.</li>
         </ol>
 
       <form>
